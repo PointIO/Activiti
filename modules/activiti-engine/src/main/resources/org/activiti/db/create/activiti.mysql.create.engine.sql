@@ -102,7 +102,7 @@ create table ACT_RE_PROCDEF (
     DEPLOYMENT_ID_ varchar(64),
     RESOURCE_NAME_ varchar(4000),
     DGRM_RESOURCE_NAME_ varchar(4000),
-    DESCRIPTION_ varchar(4000),
+    DESCRIPTION_ varchar(8000),
     HAS_START_FORM_KEY_ TINYINT,
     HAS_GRAPHICAL_NOTATION_ TINYINT,
     SUSPENSION_STATE_ integer,
