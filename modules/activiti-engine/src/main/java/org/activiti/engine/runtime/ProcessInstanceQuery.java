@@ -223,7 +223,11 @@ public interface ProcessInstanceQuery extends Query<ProcessInstanceQuery, Proces
    * definition is suspended
    */
   ProcessInstanceQuery suspended();
-  
+
+  ProcessInstanceQuery involvedUserLike(String involvedUserLike);
+
+  ProcessInstanceQuery involvedUserLikeIgnoreCase(String involvedUserLikeIgnoreCase);
+
   /**
    * Only select process instances which are active, which means that 
    * neither the process instance nor the corresponding process definition 
